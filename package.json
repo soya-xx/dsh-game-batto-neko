@@ -1,0 +1,32 @@
+{
+  "name": "dsh-game-batto-neko",
+  "version": "0.11.2-alpha.3",
+  "description": "BattoNeko (拔刀猫耳): a pixel-art action platformer for the DSH Game Store",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "soya-xx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soya-xx/dsh-game-batto-neko.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-game",
+    "deepseek-harness",
+    "game"
+  ],
+  "icon": "./store/icon.png",
+  "files": [
+    "game",
+    "store",
+    "game.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dshGame": "./game.json"
+}

@@ -1,0 +1,101 @@
+{
+  "spec": 1,
+  "id": "batto-neko",
+  "name": {
+    "en": "BattoNeko",
+    "zh": "拔刀猫耳"
+  },
+  "tagline": {
+    "en": "A cat-eared swordswoman cuts through the Misty Forest.",
+    "zh": "猫耳少女拔刀，闯过迷雾森林。"
+  },
+  "summary": {
+    "en": "Pixel-art action platformer: explore the Misty Forest and duel its bosses.",
+    "zh": "像素动作平台游戏：探索迷雾森林，挑战首领。"
+  },
+  "author": {
+    "name": "soya-xx",
+    "url": "https://github.com/soya-xx"
+  },
+  "entry": "game/index.html",
+  "icon": "store/icon.png",
+  "cover": "store/cover.jpg",
+  "screenshots": [
+    {
+      "src": "store/shot-1.png",
+      "caption": {
+        "en": "Morning Mist Clearing",
+        "zh": "晨雾空地"
+      }
+    },
+    {
+      "src": "store/shot-2.png",
+      "caption": {
+        "en": "Elder Tree Fork",
+        "zh": "古树岔路"
+      }
+    },
+    {
+      "src": "store/shot-3.png",
+      "caption": {
+        "en": "Glowdome",
+        "zh": "萤穹城"
+      }
+    },
+    {
+      "src": "store/shot-4.png",
+      "caption": {
+        "en": "Hamster Town",
+        "zh": "仓鼠镇"
+      }
+    },
+    {
+      "src": "store/shot-5.png",
+      "caption": {
+        "en": "Cave-In",
+        "zh": "塌陷口"
+      }
+    },
+    {
+      "src": "store/shot-6.png",
+      "caption": {
+        "en": "Glowdome City Gate",
+        "zh": "萤穹城门"
+      }
+    },
+    {
+      "src": "store/shot-7.png",
+      "caption": {
+        "en": "The Slime King",
+        "zh": "史莱姆王"
+      }
+    }
+  ],
+  "about": {
+    "en": "store/about.en.md",
+    "zh": "store/about.zh.md"
+  },
+  "languages": [
+    "en",
+    "zh-CN"
+  ],
+  "controls": [
+    "keyboard",
+    "gamepad",
+    "touch"
+  ],
+  "players": {
+    "min": 1,
+    "max": 1
+  },
+  "content": {
+    "rating": "teen",
+    "notes": "Stylized pixel-art sword combat against monsters and bosses. After winning, players may choose to spare a boss or finish it; no blood or gore."
+  },
+  "network": {
+    "hosts": [
+      "https://soya-knight-dsh.pages.dev"
+    ],
+    "notes": "Sends anonymous play data (rooms visited, deaths, boss fights, input traces) to the developer to improve the game. No account or personal info."
+  }
+}

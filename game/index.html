@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>拔刀猫耳 v0.11.2-alpha.3</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="boot"><i class="mote" style="left:34%;top:46%;animation-delay:-0.5s"></i><i class="mote" style="left:61%;top:40%;animation-delay:-2.2s"></i><i class="mote" style="left:42%;top:52%;animation-delay:-4.1s"></i><i class="mote" style="left:57%;top:50%;animation-delay:-1.3s"></i><i class="mote" style="left:38%;top:38%;animation-delay:-5.6s"></i><i class="mote" style="left:65%;top:47%;animation-delay:-3.4s"></i><i class="mote" style="left:47%;top:44%;animation-delay:-6.3s"></i><i class="mote" style="left:53%;top:36%;animation-delay:-2.9s"></i><div class="title"></div><div class="track"><div class="line"></div><div class="fill"></div><div class="runner"><div class="strip"></div></div></div><div class="msg" id="boot-msg">加载中</div></div>
+<script data-boot src="boot.js"></script>
+<canvas id="screen"></canvas>
+<div id="safe-probe"></div>
+<div id="rotate"><div class="phone"></div><div>请把手机横过来</div><div class="sub" id="rotate-sub">横屏后继续游戏</div></div>
+<div id="player-name-panel" role="dialog" aria-modal="true" aria-labelledby="player-name-title" hidden>
+<form id="player-name-form">
+<label id="player-name-title" for="player-name-input">你的名字</label>
+<input id="player-name-input" type="text" maxlength="40" autocomplete="off" spellcheck="false">
+<div id="player-name-actions"><button id="player-name-confirm" type="submit">开始冒险</button><button id="player-name-skip" type="button">跳过</button></div>
+</form>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
