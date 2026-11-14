@@ -1,5 +1,9 @@
 # BattoNeko (拔刀猫耳) · DSH Game Store package
 
+[![Play on DSH Game Store](https://img.shields.io/badge/Play-DSH%20Game%20Store-orange)](https://dsh-game-store.com/games/batto-neko/play/)
+
+**Play / 试玩：** https://dsh-game-store.com/games/batto-neko/play/
+
 A pixel-art action platformer. This repository holds the game package published to the
 [DSH Game Store](https://dsh-game-store.com): `game/` is the playable build, `store/` holds the store page art and text.
 
